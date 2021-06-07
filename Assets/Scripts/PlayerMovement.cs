@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         objectPooling.OnStart();
-        GameManager aux = GameManager.Instance;
+        // GameManager aux = GameManager.Instance;
     }
 
     // OnTriggerEnter2D � chamado quando outro Collider2D entra no gatilho (somente f�sica de 2D)
